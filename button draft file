@@ -1,0 +1,38 @@
+<div class="nav-flex">
+            <div class="Logo"><img id="logo" src="Final Logo.png"></div>
+            <div class="Home"><a href="Index.html"><input type="button" value="Home"></a></div>
+            <div class="About"><a href="About.html"><input type="button" value="About"></a></div>
+            <div class="Interest"><a href="Interest.html"><input type="button" value="Interest"></a></div>
+            <div class="Education"><a href="Education.html"><input type="button" value="Education"></a></div>
+            <div class="Aim"><a href="Aim.html"><input type="button" value="Aim"></a></div>
+            <div class="Reference"><a href="Reference.html"><input type="button" value="References"></a></div>
+        </div>
+
+        <style>
+            input{
+background-color:aqua;
+height: 50px;
+width: 100px;
+border-radius: 25px;
+font-weight: 900;
+}
+
+.Home input{
+    background-color:orange;
+    height: 50px;
+width: 100px;
+    border-radius: 25px;
+    }
+
+        </style>
+
+
+
+
+
+<li><a href="Index.html">Home</a></li>
+                        <li><a href="About.html">About</a></li>
+                        <li><a href="Education.html">Education</a></li>
+                        <li><a href="Works.html">Works</a></li>
+                        <li><a href="Aim.html">Aim</a></li>
+                        <li><a href="Contact.html">Contact</a></li>
