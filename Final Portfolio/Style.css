@@ -1,0 +1,279 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Andika&family=Anton&family=Bebas+Neue&family=Kaushan+Script&family=Roboto+Condensed:wght@300&family=Source+Serif+Pro:ital,wght@1,600&family=Unbounded:wght@500&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+.logo{
+  font-size: 109px;
+  font-family: 'Kaushan Script', cursive;
+  margin: 90px 37px -84px 30px;
+  align-items: center;
+  display: grid;
+  justify-content: center;
+}
+.logo :hover{
+  color: aliceblue;
+}
+
+.container{
+  display: flex;
+}
+.sidebar{
+ 
+  background-color:rgb(220, 95, 0);
+  width: 434px;
+  font-family: 'Andika', sans-serif;
+  font-weight: bolder;
+  height: 100vh;
+  position: fixed;
+  
+}
+
+.sidebar nav{
+  padding: 105px;
+  margin-left: 25px;
+  
+}
+.sidebar nav li{
+  list-style: none;
+  font-size: 49px;
+  padding: 90px 0;
+  
+}
+
+.main{
+  background-color:rgb(0, 0, 0);
+  width: 90vw;
+  color: rgb(238, 238, 238);
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+
+.infoContainer{
+  background-color:rgb(0, 0, 0);
+  height: 1772px;
+    width: 67vw;
+    margin: 217px auto;
+  display: flex;
+
+  justify-content: space-between;
+
+}
+
+.DevPic img{
+  margin: -4vh;
+    width: 1600px;
+    height: 1585px;
+}
+
+
+.DevInfo{
+  background-color:rgb(0, 0, 0);
+  width: 2080px;
+  display: flex;
+  justify-content:center;
+  align-items: left;
+  font-size: 80px;
+  flex-direction: column;
+  line-height: 200px;
+  
+}
+
+.hello{
+  font-size: 150px; 
+  font-weight: 900;
+  font-family: 'Unbounded', cursive;
+  margin-left: 80px;
+
+}
+.name b{
+  color:rgb(220, 95, 0);
+}
+.name{
+  font-family: 'Unbounded', cursive;  font-weight: bold;
+  font-size: 150px;
+  margin-left: 80px;
+  text-decoration: none;
+}
+.tag{
+margin-left: 80px;
+/* font-style: oblique; */
+font-family: 'Roboto Condensed', sans-serif;
+}
+.Buttons{
+  margin-left: 80px;
+}
+.Buttons button{
+  margin-left: 0;
+  font-size: 40px;
+  background-color:rgb(220, 95, 0);
+  border-radius: 25px;
+  color: aliceblue;
+  width: 422px;
+  height: 133px;
+  margin-top: -11px;
+  cursor: pointer;
+  font-family: 'Unbounded', cursive;
+  border: black;
+  padding: 10px;
+  justify-content: space-evenly;
+}
+
+.Buttons :hover{
+  background-color: white;
+  color:rgb(220, 95, 0);
+}
+
+
+
+
+
+.container{
+  background-color: #f5f5f5;
+}
+
+button img{
+  width: 40px;
+  height: 40px;
+}
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<Socials>>>>>>>>>>>>>>>>>>>>> */
+
+.social-icons {
+  background-color:rgb(0,0,0);
+    list-style: none;
+    margin: -80px 2500px 30px 524px;
+    padding: 30px 90px;
+    display: flex;
+    justify-content: space-around;
+    border: solid rgb(220, 95, 0);
+}
+
+.social-icons li {
+  display: inline-block;
+  width: 90px; 
+  height: 90px;
+  color: black;
+}
+
+
+.social-icons a {
+  font-size: 80px;
+  padding: 2px;
+}
+
+.social-icons a:hover {
+  color: #aaa;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-github {
+  background: #24292e;
+  color: #f5f5f5;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+  padding: 0 10px;
+}
+
+.fa-wordpress {
+  background:white;
+  color: black;
+}
+
+.fa-instagram {
+  background: white;
+  color: orangered; 
+}
+
+.fa-facebook{
+  background: #3B5998;
+  color: white;
+}
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<end>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+.footer-banner{
+  background-color:rgb(48, 30, 103);
+  margin: 0;
+  padding: 130px;
+  display: flex;
+}
+/* <<<<<<<<<<<<<<<<<CONTACT PAGE CSS>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+.contactform{
+  font-family: 'Andika', sans-serif;
+  text-align: left;
+  font-size: 50px;
+  margin: 496px 281px;
+  padding: 0 50px;
+}
+
+.contactform h1{
+  font-family: 'Unbounded', cursive;
+  font-size: 80px;
+  padding: 40px 40px;
+}
+.contactform div{
+  padding: 10px 0;
+  display: flex;
+  flex-direction: column;
+}
+.contactform form div{
+  width: 16vw;
+  border-radius: 5px;
+  margin: 6px 0;
+  padding: 3px;
+}
+input{
+  width: 500px ;
+  height: 50px;
+  font-size: 20px;
+}
+
+
+
+
+/* <<<<<<<<<<<<<<<<<<About-Page>>>>>>>>>>>>>>> */
+.OverviewContainer{
+  background-color: cadetblue;
+  /* color:white; */
+  margin: 33px 40px -410px 10px;
+  font-family: 'Outfit', sans-serif;
+  
+  
+}
+.About{
+  color: white;
+  font-size: 5rem;
+}
+.About-info{
+  color: white;
+}
+.DevOverview{
+  background-color: orange;
+  margin: 234px 1264px -472px 513px;
+  align-items: center;
+  font-size: 4rem;
+}
+.carrerObj{
+  font-size: 4rem;
+  color: white;
+}
+.DevPic2 img{
+  margin: -80vh 20vh 40vh 100vh;
+    width: 1900px;
+    height: 1885px;
+}
+.DevPic2{
+  margin-bottom: -40vh;
+}
